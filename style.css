@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    text-align: center;
+    }
+
+h1 {
+    padding: 0px;
+    margin: 70px;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 50px;
+    color: #A17D49;
+}
+
+h2 {
+    color: #c7864d; 
+    font-size: 20px;  
+}
+
+p {
+    font-size: 50px;
+}
+
+.questions, .directions {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.q {
+    margin: 20% 0;
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+.start {
+    color: white;
+    cursor: pointer;
+    border: white double;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 15%;
+    font-size: 18px;
+    }
+
+.start:hover {
+    background: #E15F52;
+    background-color:#E15F52;
+    color: white;
+        
+}
+
+.answer {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.option {
+    color: white;
+    cursor: pointer;
+    border: white solid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 5%;
+    font-size: 18px;
+}
+
+.option:hover {
+
+    background: black;
+    background-color: orange;
+    color: white;
+    border: black solid;
+}
+
+.result {
+    font-size: 50px;
+    color: white;
+}
+
+.restart {
+    color: white; 
+    cursor: pointer;
+    border:white double;
+    padding: 3%;
+    margin: 15%;
+   font-size: 20px;
+}
+
+.restart:hover {
+    color: white;
+    background-color:#685699;
+}
+
+.snake {
+    height: 500px;
+    width: 500px;
+    float: left;
+}
